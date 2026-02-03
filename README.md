@@ -157,15 +157,6 @@ Enterprise-grade API infrastructure enabling developers to integrate Islamic AI 
 - Muslim Lifestyle Applications
 - Islamic Finance Platforms
 
-**Pricing Structure**
-
-| Tier | Monthly Cost | API Calls | Target Segment |
-|------|--------------|-----------|----------------|
-| Developer | $99 | 10,000 | Individual developers, testing |
-| Startup | $499 | 100,000 | Growing applications |
-| Business | $1,999 | 500,000 | Established organizations |
-| Enterprise | Custom | Unlimited | White-label solutions |
-
 **API Capabilities**: Islamic Q&A • Quranic Data Access • Hadith Search • Prayer Time Calculations • Arabic Learning Modules
 
 **Documentation**: [Full API Specification](docs/NOOR-API-PLATFORM.md)
@@ -338,7 +329,7 @@ For detailed setup instructions: [Development Guide](docs/DEVELOPMENT.md)
 
 ### Phase 4: B2B API Platform
 
-**Target**: 100 API customers, $50,000 MRR
+**Target**: 100 API customers
 
 **Deliverables**
 - RESTful API infrastructure
