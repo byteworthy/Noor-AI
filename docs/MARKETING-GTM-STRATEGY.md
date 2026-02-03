@@ -1,10 +1,8 @@
 # Noor AI - Marketing & Go-to-Market Strategy
-## Complete Pre-Launch Through Month 1 Marketing Plan
+## Complete Marketing Plan
 
-**Purpose:** Drive user acquisition from Day 0 through Month 1
-**Timeline:** Start 8 weeks before launch (Nov 24, 2025)
-**Target:** 10K downloads in Month 1, 500 pre-launch email signups
-**Budget:** $2K pre-launch, $5K Month 1
+**Purpose:** Drive user acquisition and engagement
+**Target:** User growth and pre-launch email signups
 
 ---
 
@@ -19,7 +17,6 @@
 7. [Paid Advertising](#paid-ads)
 8. [Email Marketing](#email-marketing)
 9. [Community Building](#community)
-10. [Marketing Budget & ROI](#budget)
 
 ---
 
@@ -916,97 +913,23 @@ Kev
 
 ---
 
-## 10. Marketing Budget & ROI {#budget}
-
-### Pre-Launch Budget ($2,000)
-
-| Item | Cost |
-|------|------|
-| Landing page (Carrd) | $19 |
-| Email marketing (Mailchimp) | $20/month x 2 = $40 |
-| Social media tools (Buffer) | $15/month x 2 = $30 |
-| Video editing (Descript) | $30 |
-| Stock photos (Unsplash Pro) | $0 (free tier) |
-| Influencer outreach (5 micro) | $0 (product access) |
-| Facebook test ads | $500 |
-| Google test ads | $300 |
-| ProductHunt premium | $79 |
-| Miscellaneous | $1,002 |
-| **TOTAL** | **$2,000** |
-
----
-
-### Month 1 Budget ($5,000)
-
-| Channel | Budget | Expected Installs | CPI |
-|---------|--------|-------------------|-----|
-| Facebook/Instagram Ads | $2,000 | 1,000 | $2.00 |
-| Google Ads | $1,500 | 500 | $3.00 |
-| TikTok Ads | $1,000 | 667 | $1.50 |
-| YouTube Ads | $500 | 100 | $5.00 |
-| **TOTAL** | **$5,000** | **2,267** | **$2.17** |
-
-**Plus Organic Channels (Free):**
-- Social media: 2,000 installs
-- SEO blog traffic: 500 installs
-- ProductHunt: 1,000 installs
-- Reddit/Forums: 500 installs
-- Word of mouth: 500 installs
-
-**Total Month 1 Installs: 6,767**
-**Blended CPI: $0.74** (including organic)
-
----
-
-### ROI Calculation
-
-**Assumptions:**
-- 6,767 installs
-- 15% start free trial = 1,015 trials
-- 60% trial → paid = 609 paid users
-- $49.99 annual plan (avg)
-
-**Month 1 Revenue:**
-609 paid users × $49.99 = **$30,444**
-
-**Month 1 Marketing Cost:** $5,000
-
-**ROI:** ($30,444 - $5,000) / $5,000 = **509% ROI** 🚀
-
-**LTV/CAC:**
-- LTV: $180 (3.6 years retention)
-- CAC: $8.21 ($5K / 609 paid)
-- **LTV:CAC = 22:1** (Excellent!)
-
----
-
 ## Summary: Marketing Execution Checklist
 
-**8 Weeks Before Launch:**
+**Pre-Launch:**
 - [ ] Landing page live
 - [ ] Email marketing set up
 - [ ] Social media accounts created
 - [ ] Content calendar planned
-
-**4 Weeks Before:**
-- [ ] Email waitlist: 250+ subscribers
-- [ ] Instagram: 500 followers
-- [ ] 5 blog posts published
+- [ ] Blog posts published
 - [ ] Influencer outreach begun
 
-**2 Weeks Before:**
-- [ ] Email waitlist: 500+ subscribers
-- [ ] ProductHunt launch prep complete
-- [ ] Paid ad campaigns created (pending)
-- [ ] Press kit ready
-
-**Launch Week:**
-- [ ] ProductHunt launch (Day 1, 12:01 AM)
+**Launch:**
+- [ ] ProductHunt launch
 - [ ] Email blast to waitlist
 - [ ] Paid ads go live
 - [ ] Social media blitz
-- [ ] Monitor metrics 24/7
+- [ ] Monitor metrics continuously
 
 ---
 
-**Marketing strategy complete - ready to drive growth! 📈**
+**Marketing strategy complete - ready to drive growth!**

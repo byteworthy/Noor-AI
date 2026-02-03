@@ -2,7 +2,6 @@
 ## Your Complete Build Specification
 
 **Version:** 2.0 - Solo Bootstrap Edition
-**Date:** February 3, 2026
 **Built By:** You + Claude Code CLI
 
 ---
@@ -60,7 +59,6 @@ You're building what the market needs but doesn't have:
 - Source citations on every response [Quran 2:255] [Bukhari 123]
 - Madhab selector (Hanafi, Maliki, Shafi'i, Hanbali)
 - Explicit disclaimers ("Consult qualified scholar")
-- Free: 25 questions/day, Premium: unlimited
 - 📄 Implementation: See Section 2
 
 **4. Real-Time Translation**
@@ -84,7 +82,7 @@ You're building what the market needs but doesn't have:
 - Scholar track (advanced)
 - 📄 Implementation: See Section 5
 
-### 🌟 PHASE 2: Enhanced (Month 5-12)
+### 🌟 PHASE 2: Enhanced Features
 
 **7. Community Features**
 - Study circles (video chat + whiteboard)
@@ -103,7 +101,7 @@ You're building what the market needs but doesn't have:
 - Habit tracking (visual charts)
 - Dhikr counter with goals
 
-### 🏗️ PHASE 3: Complete Ecosystem (Year 2+)
+### 🏗️ PHASE 3: Complete Ecosystem
 
 **10. Islamic Finance**
 - Zakat calculator
@@ -130,7 +128,7 @@ You're building what the market needs but doesn't have:
 - 100+ duas with audio
 - 99 Names of Allah
 
-### 🔌 PHASE 4: B2B API Platform (Months 13-18)
+### 🔌 PHASE 4: B2B API Platform
 
 **Goal:** Create B2B revenue stream by offering Noor AI capabilities as an API service for developers and organizations.
 
@@ -138,8 +136,7 @@ You're building what the market needs but doesn't have:
 - RESTful API for developers
 - Endpoints: Islamic Q&A, Quran data, Hadith search, Prayer times
 - Authentication: API keys with rate limiting
-- Pricing tiers: Developer ($99/mo), Startup ($499/mo), Business ($1,999/mo), Enterprise (custom)
-- Target: 100 API customers, $50K MRR by Month 18
+- Target: API customers for enterprise and developer integrations
 
 **15. Developer Experience**
 - Official SDKs: Python, Node.js, Dart
@@ -169,7 +166,7 @@ You're building what the market needs but doesn't have:
 ### What You Need
 
 **Hardware:**
-- Mac Mini M4 Pro 64GB RAM ($2,799) - for LLM training
+- Mac Mini M4 Pro 64GB RAM - for LLM training
 - Your development machine (Mac/PC/Linux)
 - Test devices: 1 iPhone, 1 Android (mid-range is fine)
 
@@ -183,7 +180,7 @@ You're building what the market needs but doesn't have:
 **Services (Free Tiers):**
 - Firebase Spark Plan (free up to limits)
 - Supabase (optional, free tier)
-- OpenAI API (~$50/month for GPT-4 Vision during beta)
+- OpenAI API for GPT-4 Vision during beta
 - GitHub (version control)
 - Sentry (error tracking, free for small projects)
 
@@ -1101,7 +1098,7 @@ class PrayerService {
 
 ## 🚀 Your Build Plan (4 Months to Launch)
 
-### Month 1: Foundation
+### Phase 1: Foundation
 **What you're building:**
 - Flutter project setup
 - Database (Drift with 17 tables)
@@ -1111,7 +1108,7 @@ class PrayerService {
 
 **Deliverable:** App opens, has screens, database works
 
-### Month 2: LLM Training
+### Phase 2: LLM Training
 **What you're doing:**
 - Get Mac Mini M4 Pro
 - Collect 50K training samples
@@ -1121,7 +1118,7 @@ class PrayerService {
 
 **Deliverable:** Working Noor AI chatbot on-device
 
-### Month 3: Core Features
+### Phase 3: Core Features
 **What you're building:**
 - Quran reader (full text, audio, word-by-word)
 - Arabic tutor (10 beginner scenarios)
@@ -1131,7 +1128,7 @@ class PrayerService {
 
 **Deliverable:** MVP that's actually useful
 
-### Month 4: Polish & Enhanced
+### Phase 4: Polish & Enhanced
 **What you're adding:**
 - Photo-to-Quran (GPT-4 Vision)
 - Memorization helper (Whisper)
@@ -1142,7 +1139,7 @@ class PrayerService {
 
 **Deliverable:** Feature-complete for launch
 
-**LAUNCH:** January 19, 2026 (Pre-Ramadan)
+**LAUNCH:** Ready for production deployment
 
 ---
 
@@ -1162,30 +1159,13 @@ class PrayerService {
 ### Paid Services (Minimal)
 
 **GPT-4 Vision (for Photo-to-Quran):**
-- Cost: ~$0.01-0.03 per image
 - Strategy: Cache results aggressively
-- Month 1 budget: $50 (~2,000 photo recognitions)
 
 **ElevenLabs (for Voice):**
-- Free: 10K characters/month
-- Paid: $5/month for 30K characters
 - Strategy: Use for demos, let users generate on-demand
 
 **OpenAI Embeddings (for Thematic Search):**
 - Or use local sentence-transformers (free but slower)
-- Cost if API: $0.0001 per 1K tokens
-- Pre-compute all 6,236 verses: ~$1 one-time
-
-### Revenue Timeline
-
-- Month 1-2: $0 (building)
-- Month 3-4: $0 (beta testing)
-- Month 5: $200-500 (first premium users)
-- Month 6: $1,000-2,000 (Ramadan boost)
-- Month 12: $5,000-10,000 (if 1000-1500 premium users at $7/mo)
-
-**Break-even on hosting:** ~Month 8-10
-**Profitable:** ~Month 12
 
 ---
 
@@ -1215,8 +1195,8 @@ As a solo builder:
 - ✅ You have clear differentiation (custom LLM, offline-first)
 
 **What you need:**
-- 4 months of focused building (20-30 hrs/week)
-- $3,000-5,000 for Mac Mini + API costs
+- Focused building time
+- Mac Mini hardware and API access
 - Willingness to iterate based on user feedback
 - Discipline to ship MVP first, add features later
 
@@ -1572,7 +1552,7 @@ class SRSService {
 - [ ] Performance tested on 10+ devices
 - [ ] App Store submission (7-10 days approval)
 
-### Launch Day (January 19, 2026)
+### Launch Day
 
 - [ ] App goes live (12:00 AM local time)
 - [ ] Tweet launch announcement

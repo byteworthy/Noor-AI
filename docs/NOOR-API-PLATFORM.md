@@ -2,25 +2,20 @@
 ## Developer Documentation for Noor API
 
 **Purpose:** Enable developers to integrate Islamic AI into their applications
-**Timeline:** Phase 4 - Months 13-18 (Post-Consumer App Launch)
-**Target:** 100 API customers by Month 18
+**Target:** API customers for enterprise and developer integrations
 
 ---
 
 ## Table of Contents
 
 1. [Platform Overview](#1-platform-overview)
-2. [Business Model & Pricing](#2-business-model--pricing)
-3. [API Architecture](#3-api-architecture)
-4. [Authentication & API Keys](#4-authentication--api-keys)
-5. [API Endpoints Reference](#5-api-endpoints-reference)
-6. [Rate Limiting & Quotas](#6-rate-limiting--quotas)
-7. [SDKs & Integration Examples](#7-sdks--integration-examples)
-8. [Developer Dashboard](#8-developer-dashboard)
-9. [Security & Compliance](#9-security--compliance)
-10. [Implementation Phases](#10-implementation-phases)
-11. [Go-to-Market Strategy](#11-go-to-market-strategy)
-12. [Success Metrics](#12-success-metrics)
+2. [API Architecture](#2-api-architecture)
+3. [Authentication & API Keys](#3-authentication--api-keys)
+4. [API Endpoints Reference](#4-api-endpoints-reference)
+5. [Rate Limiting & Quotas](#5-rate-limiting--quotas)
+6. [SDKs & Integration Examples](#6-sdks--integration-examples)
+7. [Developer Dashboard](#7-developer-dashboard)
+8. [Security & Compliance](#8-security--compliance)
 
 ---
 
@@ -58,10 +53,10 @@ Noor API provides programmatic access to:
 ### Value Proposition
 
 **vs. Building Your Own:**
-- No $500K+ LLM training cost
+- No LLM training infrastructure required
 - No scholar oversight burden
 - No infrastructure management
-- Production-ready in hours, not months
+- Production-ready in hours
 
 **vs. ChatGPT/Claude:**
 - Islamic-specific training (50K Q&A pairs)
@@ -71,56 +66,7 @@ Noor API provides programmatic access to:
 
 ---
 
-## 2. Business Model & Pricing
-
-### Pricing Tiers
-
-| Tier | Price | API Calls/Month | Use Case |
-|------|-------|-----------------|----------|
-| **Developer** | $99/month | 10,000 | Testing, small projects |
-| **Startup** | $499/month | 100,000 | Growing apps |
-| **Business** | $1,999/month | 500,000 | Islamic schools, mosques |
-| **Enterprise** | Custom | Unlimited | White-label solutions |
-
-### Revenue Model
-
-**Assumptions (Conservative):**
-- Month 13: 10 customers (avg $500/mo) = $5K MRR
-- Month 15: 30 customers = $15K MRR
-- Month 18: 100 customers = $50K MRR
-
-**Unit Economics:**
-- Average Revenue Per Customer: $500/month
-- Cost to Serve (GCP inference): $50/month
-- Gross Margin: 90%
-- CAC: $500 (content marketing + sales)
-- Payback Period: 1 month
-
-### What's Included
-
-**All Tiers:**
-- RESTful API access
-- OpenAPI documentation
-- Developer dashboard
-- Email support
-- 99.9% uptime SLA
-
-**Business+ Tiers:**
-- SDK support (Python, Node.js, Dart)
-- Dedicated Slack channel
-- Custom rate limits
-- Monthly usage reports
-
-**Enterprise Only:**
-- White-label options
-- Custom LLM fine-tuning
-- On-premise deployment
-- SSO integration (SAML)
-- Dedicated account manager
-
----
-
-## 3. API Architecture
+## 2. API Architecture
 
 ### Infrastructure Stack
 
@@ -172,7 +118,7 @@ Noor API provides programmatic access to:
 
 ---
 
-## 4. Authentication & API Keys
+## 3. Authentication & API Keys
 
 ### Getting API Keys
 
@@ -211,7 +157,7 @@ curl https://api.noorai.app/v1/qa/ask \
 
 ---
 
-## 5. API Endpoints Reference
+## 4. API Endpoints Reference
 
 ### Base URL
 
@@ -351,7 +297,7 @@ GET /prayer-times
 ```json
 {
   "data": {
-    "date": "2026-02-15",
+    "date": "YYYY-MM-DD",
     "location": {"city": "New York", "country": "USA"},
     "times": {
       "fajr": "05:42",
@@ -368,7 +314,7 @@ GET /prayer-times
 
 ---
 
-## 6. Rate Limiting & Quotas
+## 5. Rate Limiting & Quotas
 
 ### Rate Limits by Tier
 
@@ -408,7 +354,7 @@ X-RateLimit-Reset: 1609459200
 
 ---
 
-## 7. SDKs & Integration Examples
+## 6. SDKs & Integration Examples
 
 ### Official SDKs
 
@@ -464,7 +410,7 @@ print(results.data.results);
 
 ---
 
-## 8. Developer Dashboard
+## 7. Developer Dashboard
 
 ### Dashboard Features
 
@@ -489,26 +435,20 @@ print(results.data.results);
    - Filter by endpoint, status code, date
    - Export logs (CSV, JSON)
 
-4. **Billing**
-   - Current plan: Startup ($499/month)
-   - Next billing date
-   - Usage overage warnings
-   - Upgrade/downgrade plan
-
-5. **Documentation**
+4. **Documentation**
    - API reference (interactive)
    - Quickstart guides
    - Code examples
    - Postman collection
 
-6. **Support**
+5. **Support**
    - Submit ticket
    - Community forum
    - Slack integration (Business+)
 
 ---
 
-## 9. Security & Compliance
+## 8. Security & Compliance
 
 ### Security Measures
 
@@ -527,10 +467,10 @@ print(results.data.results);
 - End-to-end encryption for sensitive data
 
 **Compliance:**
-- SOC 2 Type II certified (target: Year 2)
-- ISO 27001 certified (target: Year 3)
+- SOC 2 Type II certification
+- ISO 27001 certification
 - Regular security audits
-- Penetration testing (annual)
+- Penetration testing
 
 ### Content Moderation
 
@@ -543,193 +483,4 @@ print(results.data.results);
 
 ---
 
-## 10. Implementation Phases
-
-### Phase 4.1: Core API Infrastructure (Months 13-14)
-
-**Goal:** Launch MVP API for 10 beta customers
-
-**Deliverables:**
-- RESTful API (Node.js/Express on Cloud Run)
-- Authentication system (API keys)
-- Core endpoints:
-  - POST /qa/ask
-  - GET /quran/verse/:surah/:ayah
-  - GET /hadith/search
-  - GET /prayer-times
-- Developer dashboard (basic)
-- Documentation (API reference)
-
-**Tech Stack:**
-- Backend: Node.js (Express) on Google Cloud Run
-- Database: Firestore (shared with consumer app)
-- LLM: Same Qwen2.5-7B model (Cloud TPU)
-- Auth: Firebase Auth + custom API key system
-- Docs: Swagger/OpenAPI
-
-**Success Criteria:**
-- 10 beta customers signed up
-- <2s average API response time
-- 99.9% uptime
-- $5K MRR
-
----
-
-### Phase 4.2: Developer Experience (Months 15-16)
-
-**Goal:** Scale to 30 customers with excellent DX
-
-**Deliverables:**
-- Official SDKs (Python, Node.js, Dart)
-- Enhanced dashboard (usage graphs, logs)
-- Webhooks (event notifications)
-- Sandbox environment
-- Postman collection
-- Video tutorials
-
-**New Features:**
-- Batch request endpoint (process multiple questions)
-- Streaming responses (SSE)
-- Custom model fine-tuning (Enterprise)
-- Advanced caching
-
-**Success Criteria:**
-- 30 customers
-- SDK adoption: 70%+
-- Developer satisfaction: 4.5/5 stars
-- $15K MRR
-
----
-
-### Phase 4.3: Enterprise & Scale (Months 17-18)
-
-**Goal:** 100 customers, enterprise-ready
-
-**Deliverables:**
-- White-label solutions
-- SSO integration (SAML, OAuth)
-- On-premise deployment option
-- Advanced analytics dashboard
-- SLA guarantees (99.95%+)
-- Dedicated support (Business+)
-
-**Partnerships:**
-- Islamic school management systems
-- Mosque management software
-- Islamic EdTech platforms
-
-**Success Criteria:**
-- 100 customers (10 enterprise)
-- $50K MRR
-- 5 strategic partnerships
-- SOC 2 Type II certified
-
----
-
-## 11. Go-to-Market Strategy
-
-### Target Customer Acquisition
-
-**Channel Strategy:**
-
-**1. Content Marketing (40% of effort)**
-- Blog: "How to Build Islamic Apps with AI"
-- Case studies: Islamic school using Noor API
-- Developer tutorials on YouTube
-- SEO: "Islamic API", "Quran API", "Hadith API"
-
-**2. Direct Outreach (30%)**
-- Email campaign to 500 Islamic schools
-- Partner with Islamic school associations
-- Attend Islamic education conferences
-- Cold outreach to mosque app developers
-
-**3. Developer Community (20%)**
-- Launch on ProductHunt (dev edition)
-- Post on HackerNews: "We built an Islamic AI API"
-- Reddit: r/islam, r/programming
-- GitHub: Open-source example apps
-
-**4. Strategic Partnerships (10%)**
-- Islamic school management systems (e.g., MyMasjid)
-- Muslim app networks
-- Islamic finance platforms
-
-### Pricing Strategy
-
-**Launch Offer:**
-- First 50 customers: 50% off for 6 months
-- Free Developer tier for open-source projects
-- Free migration support (from other APIs)
-
-**Upsell Path:**
-```
-Free Tier (10 calls/day)
-    ↓ Upgrade prompt after 7 days
-Developer ($99/mo)
-    ↓ Upgrade prompt at 80% quota
-Startup ($499/mo)
-    ↓ Sales outreach at 80% quota
-Business/Enterprise
-```
-
----
-
-## 12. Success Metrics
-
-### North Star Metric
-
-**Active API Keys** (monthly)
-= Number of API keys with ≥100 requests/month
-
-### Key Metrics
-
-| Metric | Month 13 | Month 15 | Month 18 | Long-term |
-|--------|----------|----------|----------|-----------|
-| **Total Customers** | 10 | 30 | 100 | 1,000 |
-| **MRR** | $5K | $15K | $50K | $500K |
-| **API Calls/Month** | 100K | 500K | 2M | 50M |
-| **Response Time** | <2s | <1.5s | <1s | <500ms |
-| **Uptime** | 99.9% | 99.9% | 99.95% | 99.99% |
-| **Churn Rate** | N/A | <5% | <3% | <2% |
-| **NPS** | 40 | 50 | 60 | 70+ |
-
-### Business Metrics
-
-**Unit Economics:**
-- ARPU (Average Revenue Per User): $500/month
-- LTV (Lifetime Value): $18,000 (3 years retention)
-- CAC (Customer Acquisition Cost): $500
-- LTV:CAC Ratio: 36:1 (Excellent)
-- Gross Margin: 90%
-- Payback Period: 1 month
-
----
-
-## Summary: API Platform Readiness Checklist
-
-**Phase 4.1 (Months 13-14):**
-- [ ] API infrastructure built (Cloud Run)
-- [ ] Authentication system (API keys)
-- [ ] Core 4 endpoints live
-- [ ] Developer dashboard (basic)
-- [ ] API documentation published
-- [ ] 10 beta customers onboarded
-
-**Phase 4.2 (Months 15-16):**
-- [ ] SDKs released (Python, Node.js, Dart)
-- [ ] Webhooks implemented
-- [ ] Sandbox environment live
-- [ ] Video tutorials published
-- [ ] 30 customers acquired
-
-**Phase 4.3 (Months 17-18):**
-- [ ] White-label solutions available
-- [ ] SSO integration complete
-- [ ] Enterprise SLA agreements
-- [ ] 100 customers milestone
-- [ ] $50K MRR achieved
-
----
-
-**Noor API Platform documentation complete - ready to build B2B revenue stream!**
+**Noor API Platform - Technical Documentation Complete**

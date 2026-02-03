@@ -441,7 +441,7 @@ For commercial API access: [api.noorai.app](https://api.noorai.app)
 
 **Privacy-First • Offline-Capable • Open Source**
 
-Copyright © 2026 ByteWorthy. Licensed under MIT License.
+Copyright © ByteWorthy. Licensed under MIT License.
 
 ---
 

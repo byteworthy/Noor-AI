@@ -19,7 +19,7 @@ flutter run
 
 ## Development Phases
 
-### Phase 1: Foundation (Week 1) ✅
+### Phase 1: Foundation ✅
 
 **Status**: Completed
 
@@ -32,7 +32,7 @@ flutter run
 
 **Next Steps**: Implement database schema (see Phase 2)
 
-### Phase 2: Database Implementation (Week 1)
+### Phase 2: Database Implementation
 
 Create the complete Drift database schema with 17 tables.
 
@@ -64,7 +64,7 @@ dart run build_runner build --delete-conflicting-outputs
 
 See `docs/MASTER-PRD.md` for complete schema specifications.
 
-### Phase 3: Core Features (Weeks 2-4)
+### Phase 3: Core Features
 
 #### 3.1 Quran Reader
 
@@ -118,7 +118,7 @@ See `docs/MASTER-PRD.md` for complete schema specifications.
 - Example words
 - Writing practice guides
 
-### Phase 4: AI Integration (Weeks 5-6)
+### Phase 4: AI Integration
 
 #### 4.1 Noor AI Service
 
@@ -136,7 +136,7 @@ See `docs/MASTER-PRD.md` for complete schema specifications.
 - Streaming chat responses
 - Source citations [Quran X:Y] [Bukhari Z]
 - Conversation history
-- Usage limits (25/day free, unlimited premium)
+- Usage limits
 
 #### 4.2 LLM Training (Parallel - on Mac Mini)
 
@@ -152,7 +152,7 @@ See `docs/MASTER-PRD.md` for complete schema specifications.
 
 See `docs/MASTER-PRD.md` Section 4.2 for complete training pipeline.
 
-### Phase 5: Advanced Features (Weeks 7-12)
+### Phase 5: Advanced Features
 
 #### 5.1 Photo-to-Quran Recognition
 
