@@ -512,7 +512,7 @@ Future<void> deleteUserData(String userId) async {
 - [ ] Privacy consent implemented
 - [ ] GDPR compliance verified
 
-**Week 1 Post-Launch:**
+**initial period Post-Launch:**
 - [ ] Monitor DAU/MAU daily
 - [ ] Check funnel drop-offs
 - [ ] Review crash reports

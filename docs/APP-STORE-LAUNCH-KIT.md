@@ -1115,7 +1115,7 @@ Barakallahu feek!
 - [ ] Post on social media
 - [ ] Email subscribers
 
-**Post-Launch (Week 1):**
+**Post-Launch (initial period):**
 - [ ] Respond to ALL reviews
 - [ ] Monitor metrics (downloads, retention, crashes)
 - [ ] Fix urgent bugs

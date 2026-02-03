@@ -770,7 +770,7 @@ Action: Email + Slack notification
 - [ ] Slack #engineering-alerts active
 - [ ] Hourly check: crash rate, API latency, DAU
 
-**Week 1 Post-Launch:**
+**initial period Post-Launch:**
 - [ ] Review all incidents
 - [ ] Optimize based on real usage patterns
 - [ ] Adjust scaling thresholds

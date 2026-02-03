@@ -639,7 +639,7 @@ noor-ai-api/                    # New repository (separate from consumer app)
 
 **Implementation Steps:**
 
-**Step 1: Set Up API Server (Week 1-2)**
+**Step 1: Set Up API Server (initial period-2)**
 
 ```bash
 # Create new repository
@@ -693,7 +693,7 @@ app.listen(PORT, () => {
 });
 ```
 
-**Step 2: Implement Authentication (Week 2)**
+**Step 2: Implement Authentication (initial period)**
 
 **Create `src/middleware/auth.middleware.js`:**
 ```javascript
@@ -746,7 +746,7 @@ async function authMiddleware(req, res, next) {
 module.exports = { authMiddleware };
 ```
 
-**Step 3: Implement Core Endpoints (Week 3-4)**
+**Step 3: Implement Core Endpoints (initial period-4)**
 
 **Create `src/routes/qa.routes.js`:**
 ```javascript
@@ -788,7 +788,7 @@ router.post('/ask', async (req, res, next) => {
 module.exports = router;
 ```
 
-**Step 4: Deploy to Google Cloud Run (Week 5)**
+**Step 4: Deploy to Google Cloud Run (initial period)**
 
 ```bash
 # Build Docker image
@@ -811,7 +811,7 @@ gcloud run domain-mappings create \
   --domain api.noorai.app
 ```
 
-**Step 5: Build Developer Dashboard (Week 6-8)**
+**Step 5: Build Developer Dashboard (initial period-8)**
 
 ```bash
 # Create Next.js app

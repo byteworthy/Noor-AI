@@ -163,16 +163,16 @@ Special Pre-Launch Pricing
 
 ┌──────────────────────────────────────┐
 │  Lifetime Access                     │
-│  $299 $149 (50% OFF) ← Early Birds   │
+│    (50% OFF) ← Early Birds   │
 │  • Everything unlocked forever       │
 │  • No monthly fees ever              │
 │  └─────────────────────────────────┘│
 │                                      │
 │  Annual Plan                         │
-│  $49.99/year (Save 40%)              │
+│  .99/year (Save 40%)              │
 │                                      │
 │  Monthly Plan                        │
-│  $6.99/month                         │
+│  .99/month                         │
 └──────────────────────────────────────┘
 
 [Join Waitlist to Lock in Lifetime Deal]
@@ -214,12 +214,12 @@ A: January 19, 2026. Join waitlist for early access.
 ### Landing Page Tech Stack
 
 **Option 1 (No-Code): Carrd.co**
-- Cost: $19/year
+- Cost: /year
 - Launch: 1 day
 - Email: Integrate with Mailchimp
 
 **Option 2 (Low-Code): Webflow**
-- Cost: $14/month
+- Cost: /month
 - Launch: 3 days
 - Email: Built-in forms
 
@@ -423,7 +423,7 @@ Unlike ChatGPT, Noor AI is:
 ## Pricing
 
 - Free: 60% of features forever
-- Premium: $6.99/month or $49.99/year
+- Premium: .99/month or .99/year
 - 7-day free trial for Product Hunt users! 🎁
 
 ## Tech Stack
@@ -518,12 +518,12 @@ Jazakallah khair!
 - Convert: Authentic testimonials
 
 **Tier 2: Mid-Tier (10K-100K)**
-- Cost: $100-$500/post
+- Cost: -/post
 - Reach: 50K-200K
 - Convert: Sponsored posts
 
 **Tier 3: Macro (100K+)**
-- Cost: $1K-$5K/post
+- Cost: K-K/post
 - Reach: 500K+
 - Convert: Post-launch only
 
@@ -665,23 +665,23 @@ noorai.app
 - Week -6: Posts 3-4
 - Week -4: Posts 5-6
 - Week -2: Posts 7-8
-- Week 0: Posts 9-10
+- initial period: Posts 9-10
 
-**Target:** 1,000 organic visits/month by Month 3
+**Target:** 1,000 organic visits/month by period
 
 ---
 
 ## 7. Paid Advertising {#paid-ads}
 
-### Budget Allocation (Month 1: $5,000)
+### 
 
 | Platform | Budget | Expected CPI | Expected Installs |
 |----------|--------|--------------|-------------------|
-| Facebook/Instagram Ads | $2,000 | $2.00 | 1,000 |
-| Google Ads (Search) | $1,500 | $3.00 | 500 |
-| TikTok Ads | $1,000 | $1.50 | 667 |
-| YouTube Ads | $500 | $5.00 | 100 |
-| **TOTAL** | **$5,000** | **$2.17 avg** | **2,267** |
+| Facebook/Instagram Ads |  | .00 | 1,000 |
+| Google Ads (Search) |  | .00 | 500 |
+| TikTok Ads |  | .50 | 667 |
+| YouTube Ads |  | .00 | 100 |
+| **TOTAL** | **** | **.17 avg** | **2,267** |
 
 ### Facebook/Instagram Ads
 
@@ -719,8 +719,8 @@ Download free today. Premium features available.
 [Download Now]
 ```
 
-**Budget:** $50/day for 40 days = $2,000
-**Target CPI:** $2.00
+**Budget:** /day for 40 days = 
+**Target CPI:** .00
 **Expected:** 1,000 installs
 
 ---
@@ -731,8 +731,8 @@ Download free today. Premium features available.
 
 **Ad Group 1: Arabic Learning**
 - Keywords: "learn arabic app", "best arabic learning app", "arabic language app"
-- Bid: $3.00 CPC
-- Daily Budget: $30
+- Bid: .00 CPC
+- Daily Budget: 
 
 **Ad Example:**
 ```
@@ -741,23 +741,23 @@ Headline 2: Conversation Practice | Noor AI
 Headline 3: Download Free - Start Today
 
 Description 1: Master Arabic through real conversations. 23 interactive scenarios. Get pronunciation feedback from AI.
-Description 2: Join 10,000+ learners. Download Noor AI free. Premium features from $6.99/month.
+Description 2: Join 10,000+ learners. Download Noor AI free. Premium features from .99/month.
 
 [Download Now]
 ```
 
 **Ad Group 2: Quran Apps**
 - Keywords: "quran app", "best quran app", "quran memorization app"
-- Bid: $2.50 CPC
-- Daily Budget: $25
+- Bid: .50 CPC
+- Daily Budget: 
 
 **Ad Group 3: New Muslim**
 - Keywords: "new muslim", "convert to islam", "learn islam"
-- Bid: $4.00 CPC
-- Daily Budget: $20
+- Bid: .00 CPC
+- Daily Budget: 
 
-**Total Daily Budget:** $75 x 20 days = $1,500
-**Expected CPI:** $3.00
+**Total Daily Budget:**  x 20 days = 
+**Expected CPI:** .00
 **Expected:** 500 installs
 
 ---
@@ -778,8 +778,8 @@ Description 2: Join 10,000+ learners. Download Noor AI free. Premium features fr
 - Interests: Education, Languages, Islam
 - Location: USA, UK, Canada
 
-**Budget:** $50/day for 20 days = $1,000
-**Expected CPI:** $1.50
+**Budget:** /day for 20 days = 
+**Expected CPI:** .50
 **Expected:** 667 installs
 
 ---
@@ -895,7 +895,7 @@ Kev
 - Promote in app
 - Host weekly live Q&A sessions
 
-**Target:** 500 members by Month 3
+**Target:** 500 members by period
 
 ---
 

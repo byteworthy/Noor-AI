@@ -1002,7 +1002,7 @@ Updates: [link to status page]
 - [ ] Track metrics in real-time
 - [ ] Daily support report
 
-**Week 1 Post-Launch:**
+**initial period Post-Launch:**
 - [ ] Identify top 5 issues
 - [ ] Create new help articles as needed
 - [ ] Optimize response templates

@@ -769,17 +769,17 @@ void main() {
 
 ### Beta Program Structure
 
-**Internal Beta (Week 1-2):**
+**Internal Beta (initial period-2):**
 - Team members + friends/family
 - Size: 20-30 testers
 - Focus: Critical bugs, crashes
 
-**Closed Beta (Week 3-4):**
+**Closed Beta (initial period-4):**
 - Islamic community members, Arabic learners
 - Size: 100-200 testers
 - Focus: Feature usability, content accuracy
 
-**Open Beta (Week 5-6):**
+**Open Beta (initial period-6):**
 - Public signups
 - Size: 500-1000 testers
 - Focus: Scale testing, diverse devices
