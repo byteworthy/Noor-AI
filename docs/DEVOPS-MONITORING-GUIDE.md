@@ -559,45 +559,45 @@ gcloud firestore databases restore \
 
 | Month | Users | DAU | Firestore Reads/Day | Cost |
 |-------|-------|-----|---------------------|------|
-| Month 1 | 10K | 3K | 300K | $50 |
-| Month 3 | 50K | 15K | 1.5M | $150 |
-| Month 6 | 100K | 30K | 3M | $300 |
-| Month 12 | 500K | 150K | 15M | $1,200 |
+| phase | 10K | 3K | 300K | $50 |
+| phase | 50K | 15K | 1.5M | $150 |
+| phase | 100K | 30K | 3M | $300 |
+| phase2 | 500K | 150K | 15M | $1,200 |
 
 ### Firebase Scaling Limits
 
 **Firestore:**
 - Free tier: 50K reads/day, 20K writes/day
-- Month 1: Will exceed → Upgrade to Blaze plan
+- phase: Will exceed → Upgrade to Blaze plan
 - Cost: $0.06 per 100K reads
 - Optimization: Cache locally, batch requests
 
 **Cloud Functions:**
 - Free tier: 2M invocations/month
-- Month 1: Will exceed
+- phase: Will exceed
 - Cost: $0.40 per million invocations
 - Optimization: Reduce function calls, use client-side logic
 
 **Cloud Storage:**
 - Free tier: 5GB storage, 1GB egress/day
 - Audio files: ~2GB initially
-- Month 6: Will exceed
+- phase: Will exceed
 - Cost: $0.026/GB/month
 - Optimization: Use CDN (Cloudflare)
 
 ### Scaling Actions
 
-**Month 1:**
+**phase:**
 - Upgrade to Firebase Blaze (pay-as-you-go)
 - Set billing alerts ($100, $500, $1000)
 - Enable Firebase App Check
 
-**Month 3:**
+**phase:**
 - Implement aggressive caching
 - Move static content to Cloudflare CDN
 - Optimize Firestore indexes
 
-**Month 6:**
+**phase:**
 - Consider migrating heavy workloads to GCP
 - Implement read replicas if needed
 - Horizontal scaling via Cloud Run (if using custom backend)
@@ -608,7 +608,7 @@ gcloud firestore databases restore \
 
 ### Current Monthly Costs (Estimated)
 
-| Service | Month 1 | Month 6 | Month 12 |
+| Service | phase | phase | phase2 |
 |---------|---------|---------|----------|
 | Firebase (Blaze) | $50 | $300 | $1,200 |
 | Sentry | $26 | $26 | $80 |

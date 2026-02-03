@@ -607,17 +607,17 @@ class LanguageRouter:
 ✅ Create RAG query service
 ✅ Test with sample questions
 
-### Phase 2: Hybrid Search (Week 7-8)
+### Phase 2: Hybrid Search (period)
 - Add BM25 keyword search
 - Improve Arabic root-word matching
 - Combine semantic + keyword scores
 
-### Phase 3: Vision Features (Week 9-10)
+### Phase 3: Vision Features (period0)
 - Photo-to-Quran (OCR)
 - Match extracted text to verse database
 - Show enriched context
 
-### Phase 4: Voice Features (Week 11-12)
+### Phase 4: Voice Features (period1-12)
 - Whisper ASR for pronunciation
 - Real-time feedback
 - Conversational practice

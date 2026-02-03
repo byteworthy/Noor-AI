@@ -189,7 +189,7 @@ class RateLimiter {
 **Base URL:** `https://api.openai.com/v1`
 **Auth:** Bearer token
 **Rate Limit:** 500 requests/day (Tier 1)
-**Cost:** $0.01/image + $0.03/1K tokens
+**Cost:** per image + per 1K tokens
 
 ### Use Case: Photo-to-Quran
 
@@ -276,7 +276,7 @@ if (cached != null) return cached;
 
 ### Google Translate API
 
-**Cost:** $20 per 1M characters
+**Cost:** per 1M characters
 **Rate Limit:** 100 requests/100 seconds
 
 ```dart
@@ -330,7 +330,7 @@ if (cached != null) return cached;
 
 **Base URL:** `https://api.elevenlabs.io/v1`
 **Auth:** xi-api-key header
-**Cost:** $5/month (Creator plan, 30K characters)
+**Cost:** monthly (Creator plan, 30K characters)
 **Rate Limit:** 100 requests/month (free tier)
 
 ### Use Case: Arabic TTS
@@ -551,7 +551,7 @@ class ApiUsageTracker {
 
   Future<bool> canMakeApiCall(String apiName, double estimatedCost) async {
     final todaysCost = await getTodaysCost();
-    const dailyBudget = 10.0; // $10/day limit
+    const dailyBudget = 10.0; // daily limit
 
     return (todaysCost + estimatedCost) <= dailyBudget;
   }

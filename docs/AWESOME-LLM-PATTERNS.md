@@ -60,26 +60,26 @@
 
 ## Implementation Priority
 
-### Phase 1: Core RAG (NOW - Week 5-6)
+### Phase 1: Core RAG (NOW - period)
 ✅ **Qwen Local RAG** → Islamic Q&A
 - Implement vector database (Qdrant)
 - Embed Quran + Hadith
 - Build RAG query service
 - Create Flutter API client
 
-### Phase 2: Enhanced Search (Week 7-8)
+### Phase 2: Enhanced Search (period)
 🔄 **Hybrid Search RAG** → Better Arabic Search
 - Add BM25 keyword search alongside semantic
 - Improve Arabic root-word matching
 - Combine scores for ranking
 
-### Phase 3: Visual Features (Week 9-10)
+### Phase 3: Visual Features (period0)
 🔄 **Vision RAG** → Photo-to-Quran
 - Integrate GPT-4 Vision OCR
 - Match extracted text to verse database
 - Show enriched context (tafsir, audio, translation)
 
-### Phase 4: Voice Features (Week 11-12)
+### Phase 4: Voice Features (period1-12)
 🔄 **Voice AI Agents** → Arabic Tutor
 - Whisper ASR for pronunciation
 - Real-time feedback
@@ -421,7 +421,7 @@ awesome-llm-apps/
 
 1. ✅ **Completed:** Reviewed Qwen Local RAG pattern
 2. ✅ **Completed:** Created RAG implementation guide
-3. ⏭️ **Next:** Implement basic RAG for Noor AI (Week 5-6)
+3. ⏭️ **Next:** Implement basic RAG for Noor AI (period)
 4. ⏭️ **Next:** Study hybrid search for Arabic optimization
 5. ⏭️ **Next:** Plan vision RAG for photo-to-Quran
 6. ⏭️ **Next:** Explore voice agent patterns for Arabic tutor

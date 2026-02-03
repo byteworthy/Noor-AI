@@ -3,7 +3,7 @@
 
 **Purpose:** Everything needed for successful app store launch
 **Timeline:** Prepare 2-4 weeks before submission
-**Target Launch:** January 19, 2026 (pre-Ramadan)
+**Target Launch:** launch date (pre-Ramadan)
 
 ---
 
@@ -183,7 +183,7 @@ quran,arabic,islamic,muslim,prayer,learn,education,hadith,memorization,tajweed,i
 
 ### What's New (4,000 characters, for updates)
 ```
-🌙 Ramadan 2026 Special Update
+🌙 Ramadan Special Update
 
 NEW FEATURES:
 • Ramadan Mode - Suhoor/Iftar reminders, daily lessons, Zakat calculator
@@ -300,7 +300,7 @@ PREMIUM UNLOCKS:
 → Complete offline mode
 → Priority support
 
-Only $6.99/month or $49.99/year (save 40%)!
+Only subscription options (save 40%)!
 
 ━━━━━━━━━━━━━━━━━━━━
 🏆 TRUSTED BY SCHOLARS
@@ -583,7 +583,7 @@ Audio: VO: "Start your journey today"
 ```markdown
 # Privacy Policy for Noor AI
 
-Effective Date: January 19, 2026
+Effective Date: launch date
 
 ## Introduction
 
@@ -679,7 +679,7 @@ Last updated: [Date]
 ```markdown
 # Terms of Service for Noor AI
 
-Effective Date: January 19, 2026
+Effective Date: launch date
 
 ## Acceptance of Terms
 
@@ -732,9 +732,9 @@ You may NOT:
 ## Subscriptions and Payments
 
 - **Free Tier:** 60% of features, free forever
-- **Premium:** $6.99/month or $49.99/year
-- **Family Plan:** $89.99/year (up to 6 members)
-- **Lifetime:** $149.99 (one-time payment)
+- **Premium:** subscription options
+- **Family Plan:** family plan (up to 6 members)
+- **Lifetime:** lifetime plan (one-time payment)
 
 **Billing:**
 - Charged through App Store / Google Play
@@ -1055,10 +1055,10 @@ As-salamu alaykum,
 
 We understand concerns about pricing. That's why we've made 60% of Noor AI completely free - including full Quran text, prayer times, and basic Arabic lessons.
 
-Premium ($6.99/month) unlocks advanced features like unlimited AI conversations and offline mode. We also offer:
+Premium (monthly subscription) unlocks advanced features like unlimited AI conversations and offline mode. We also offer:
 - Annual plan ($49.99 - save 40%)
 - Family plan ($89.99 for 6 people)
-- Lifetime option ($149.99)
+- Lifetime option (lifetime plan)
 
 If cost is a barrier, please reach out. We have a Sadaqah Sponsor Program that provides free premium to students.
 

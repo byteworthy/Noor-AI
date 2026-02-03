@@ -2,7 +2,7 @@
 ## Complete Data Tracking Strategy
 
 **Purpose:** Track all KPIs for product decisions
-**Timeline:** Implement in Month 2, optimize ongoing
+**Timeline:** Implement in Period, optimize ongoing
 **Tools:** Firebase Analytics + Mixpanel + RevenueCat
 
 ---
@@ -36,7 +36,7 @@
 - Free tier: 100K events/month
 
 **RevenueCat (Subscription Analytics)**
-- MRR tracking
+- recurring revenue tracking
 - Churn rate
 - LTV calculations
 - Trial-to-paid conversion
@@ -231,10 +231,10 @@ analytics.logEvent(name: 'core_value_delivered', parameters: {
 |--------|------------|--------|-------------------|
 | **Conversion Rate** | Free → Trial | 15% | >10% |
 | **Trial Conversion** | Trial → Paid | 60% | >40% |
-| **MRR** | Monthly Recurring Revenue | $50K | >$25K |
-| **ARPU** | Avg Revenue Per User | $3 | >$2 |
-| **LTV** | Lifetime Value | $180 | >$100 |
-| **CAC** | Customer Acquisition Cost | $30 | <$50 |
+| **recurring revenue** | Monthly Recurring Revenue | target revenue | >target revenue |
+| **ARPU** | Avg Revenue Per User | subscription | >subscription |
+| **LTV** | Lifetime Value | subscription | >subscription |
+| **CAC** | Customer Acquisition Cost | subscription | <subscription |
 | **LTV:CAC** | Ratio | 6:1 | >3:1 |
 | **Churn Rate** | Monthly churn | <5% | <8% |
 
@@ -316,7 +316,7 @@ analytics.setUserProperties({
   'persona': 'new_muslim', // new_muslim, arabic_learner, quran_student, parent
   'arabic_level': 'beginner', // beginner, intermediate, advanced
   'madhab': 'hanafi', // hanafi, maliki, shafi, hanbali
-  'registration_date': '2026-01-01',
+  'registration_date': 'YYYY-MM-DD',
   'lifetime_value': 49.99,
   'is_premium': true,
   'days_since_install': 30,
@@ -518,7 +518,7 @@ Future<void> deleteUserData(String userId) async {
 - [ ] Review crash reports
 - [ ] Validate event accuracy
 
-**Month 1 Post-Launch:**
+**Period Post-Launch:**
 - [ ] Analyze cohort retention
 - [ ] Calculate LTV
 - [ ] Optimize based on data

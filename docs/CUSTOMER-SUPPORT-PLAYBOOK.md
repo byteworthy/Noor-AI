@@ -46,17 +46,17 @@
 
 ### Support Team Structure
 
-**Phase 1 (Launch - Month 2): Solo Founder**
+**Phase 1 (Launch - phase): Solo Founder**
 - You handle all support initially
 - Use templates and automation
 - Target: 50-100 tickets/week
 
-**Phase 2 (Month 3-6): Hire Part-Time Support**
+**Phase 2 (development phase): Hire Part-Time Support**
 - 1 part-time support specialist (20 hrs/week)
 - You handle religious questions
 - Target: 200-500 tickets/week
 
-**Phase 3 (Month 6+): Full Support Team**
+**Phase 3 (phase+): Full Support Team**
 - 1 full-time support lead
 - 1-2 part-time agents
 - 1 Islamic scholar (consulting basis)
